@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HEADER-BEGIN -->
+<div id="header20">
+    <div class="full offBg">
+      <div class="row">
+        <div class="col-s-12 col-m-12 col-l-3">
+          <div class="hamburger " id="hamburger-1">
+            <span class="line">
+            </span>
+            <span class="line">
+            </span>
+            <span class="line">
+            </span>
+          </div>
+          <a class="d-inline-flex pt-3 align-items-center mb-0 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2 text-danger" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+      <span class="fs-5 text-danger ">Bootstrap</span>
+    </a>
+          <a href="/clients/index.php?rp=/login" id="profilIcon">
+            <img alt="" src="https://www.ucartz.com/img/header/profileIcon.svg" style="width: 25px; height: 25px; margin: 15px;">
+          </a>
+        </div>
+        <div class="col-s-hide col-m-9">
+          <div class="support">
+            <a id="menu_customer_not_logged" class="menu_link a6dU7e" href="/ucartz-about-us" title="Ucartz About us">About Us</a>
+  
+            ┃
+            <a class="menu_link a6dU7e"  href="/ucartz-how-to-pay-india" title="Payment Option">Payment Option</a> ┃
+            
+            <div class="headerHelpMenu">
+              <a class="menu_link a6dU7e" href="/clients/clientarea.php"  title="Client Zone" >Client Zone</a>
+              <!-- onclick="toggle_login()" <div class="login-box text-left" id="login-box">
+                    <form method="post" class="form" action="https://www.ucartz.com/clients/dologin.php">
+                      <div class="row">
+                        <div class="col-md-12 ">
+                          <div class="text-right"><span style="cursor:pointer; font-weight:600" onclick="toggle_login()">x</span></div>
+                          <label>Enter clientarea login details</label>
+                          <input class="form-control mb-2" type="email" placeholder="Email address" name="username" required>
+                          <input class="form-control" type="password" placeholder="Password" name="password" required>
+                          <button class="btn btn-default" type="submit">Sign in</button>
+                          <a href="/clients/pwreset.php" style="text-transform: none;border: none;">Forgot password?</a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>-->
+            </div>
+  
+            ┃
+            <a class="menu_link a6dU7e" href="http://mainvps.ucartz.com:4083/" target="_blank"  title="VPS Panel">VPS Panel</a> 
+            
+            ┃
+            <a class="menu_link a6dU7e" href="https://www.ucartz.com/clients/submitticket.php"  title="Support">Support</a> 
+            ┃
+            <a href="/ucartz-career" class="menu_link a6dU7e"   title="Ucartz Career">We are hiring</a>
+  
+            
+            <div class="headerHelpMenu">
+              <a href="javascript:void(0);" id="languageChooser" class="ucartzCurrency we" tabindex="1">								</a>
+  
+              <ul>
+                <li style="background-color: #DDF7FF !important;">
+                  <a style="border:none" class="menu_link"  onclick="setCurrency('INR')">&#8377; INDIA-INR</a>
+                </li>
+                <li style="">
+                  <a style="border:none" class="menu_link"  onclick="setCurrency('USD')">&#36; US-USD</a>
+                </li>
+                
+              </ul>
+            </div>
+            <a id="menu_customer_num_pending_ticket" class="menu_badge a6dU7e" href="#" title="Open support tickets " >
+            </a> 
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="full menu20 ">
+      <div class="row" style="position: relative;">
+        <ul>
+                        <li class="l1">
+            <a class="menuTitle a6dU7eb" href="#"   >Web Hosting</a>
+            <div id="hosting_menu20Content" class="menu20Content" >
+              <div class="row flex-container noMargin noPadding oHide">
+                <div class="menu_item_one westSide col-s-12 col-m-12" >
+                  
+                  <!-- <div class="menu20Content" style="min-height: 308px;"> -->
+                  <div class="flex-wrapper side-hover">
+                <ul class="full row l2" style="margin: 0.5em 0 0 0em; padding:0px;">
+                    <li>
+                    <div class="col-s-12 col-l-3 title noMargin a5etf">
+                      <a href="/ucartz-buy-hosting"   >Shared Web Hosting</a>
+                    </div>
+                    <div class="col-s-12 col-l-9 flex-wrapper content noMargin right-inner-hover">
+                      <div class="a5efd row s-hide m-show l-show">
+                        <div class="col-s-6 contentTitle">Premium Linux Web Hosting</div>
+                      </div>
+                      <hr class="s-hide m-show l-show">
+                                <ul class="l3">
+                                  <div class="row">
+                                    <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                                      <li class="col-s-12 a5elt">
+                                        <a href="/ucartz-buy-hosting" class="full block" >Cpanel Web Hosting</a>
+                                        <span class="a5elt baseline">Starts from Rs 990/year</span>
+                                        <span class="a5elt baseline">Whatever your website or application requirements, we've got you covered. Enjoy 24x7 technical support, guaranteed performance and 99.99% uptime, and 1-click installs etc</span>
+                                      </li>
+                                    </div>
+                                    <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                                    </div>
+                                  </div>
+                                </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-s-12 col-l-3 title noMargin a5etf">
+                      <a href="/ucartz-buy-reseller"  >Reseller Web Hosting</a>
+                    </div>
+                    <div class="col-s-12 col-l-9 flex-wrapper content noMargin right-inner-hover">
+                      <div class="a5efd row s-hide m-show l-show">
+                        <div class="col-s-6 contentTitle">Cpanel Reseller Web Hosting</div>
+                      </div>
+                      <hr class="s-hide m-show l-show">
+                      <ul class="l3">
+                        <div class="row">
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            <li class="col-s-12 a5elt">
+                              <a href="/ucartz-buy-reseller" class="full block"   >WHM Reseller Web Hosting</a>
+                              <span class="a5elt baseline">Starts from Rs 4000/year</span>
+                              <span class="a5elt baseline">Build your own Web Hosting business. Give a professional look or even give your clients the autonomy to create their unique brand.</span>
+                            </li>
+                          </div>
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            
+                          </div>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="rightLightBlueBorder fakeColumn">
+              </div>
+              </div>
+              </div>
+            </div>
+          </li>
+          <li class="l1">
+            <span class="ucartz-new-btn ucartz-new-btn-stream-hosting">New</span>
+            <a class="menuTitle a6dU7eb" href="#"   >Stream Hosting</a>
+            <div id="radio_menu20Content" class="menu20Content">
+              <div class="row flex-container noMargin noPadding oHide">
+                <div class="westSide col-s-12 col-m-12">
+                  
+                  <div class="flex-wrapper side-hover">
+                <ul class="full row l2" style="margin: 0.5em 0 0 0em; padding:0px;">
+                    <li>
+                    <div class="col-s-12 col-l-3 title noMargin a5etf">
+                      <a href="/ucartz-shoutcast-internet-radio"   >Shoutcast Hosting</a>
+                    </div>
+                    <div class="col-s-12 col-l-9 flex-wrapper content noMargin right-inner-hover">
+                      <div class="a5efd row s-hide m-show l-show">
+                        <div class="col-s-6 contentTitle">Radio Hosting</div>
+                      </div>
+                      <hr class="s-hide m-show l-show">
+                      <ul class="l3">
+                        <div class="row">
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            <li class="col-s-12 a5elt">
+                              <a href="/ucartz-shoutcast-internet-radio" class="full block" >Shoutcast/Icecast Hosting</a>
+                              <span class="a5elt baseline">Starts from Rs 218.73/month </span>
+                              <span class="a5elt baseline">Create your online radio now. Share your favourite music live with your loved ones. It's easy - start will take up to 2 minutes! </span>
+                            </li>
+                          </div>
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                          </div>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-s-12 col-l-3 title noMargin a5etf">
+                      <a href="/ucartz-shoutcast-radio-reseller">Shoutcast Reseller</a>
+                    </div>
+                    <div class="col-s-12 col-l-9 flex-wrapper content noMargin right-inner-hover">
+                      <div class="a5efd row s-hide m-show l-show">
+                        <div class="col-s-6 contentTitle">Shoutcast Reseller</div>
+                      </div>
+                      <hr class="s-hide m-show l-show">
+                      <ul class="l3">
+                        <div class="row">
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            <li class="col-s-12 a5elt">
+                              <a href="/ucartz-shoutcast-radio-reseller" class="full block"   >Shoutcast Reseller</a>
+                              <span class="a5elt baseline">Starts from Rs 1379/month</span>
+                              <span class="a5elt baseline">Customize, brand and deliver high-quality and buffer-free streams - your listeners will love your streaming radio! </span>
+                            </li>
+                          </div>
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            
+                          </div>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-s-12 col-l-3 title noMargin a5etf">
+                      <a href="/azuracast-shoutcast-icecast-hosting" >Azuracast Hosting</a>
+                    </div>
+                    <div class="col-s-12 col-l-9 flex-wrapper content noMargin right-inner-hover">
+                      <div class="a5efd row s-hide m-show l-show">
+                        <div class="col-s-6 contentTitle">Azuracast Hosting</div>
+                      </div>
+                      <hr class="s-hide m-show l-show">
+                      <ul class="l3">
+                        <div class="row">
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            <li class="col-s-12 a5elt">
+                              <a href="/azuracast-shoutcast-icecast-hosting" class="full block"   >Azuracast Hosting</a>
+                              <span class="a5elt baseline">Starts from Rs 73/month</span>
+                              <span class="a5elt baseline">Start your Azuracast Internet Radio Hosting today. And easily manage your SHOUTcast & IceCast Online Streaming accounts.  </span>
+                            </li>
+                          </div>
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            
+                          </div>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-s-12 col-l-3 title noMargin a5etf">
+                      <a href="/ucartz-azuracast-cloud-vps-hosting" >Azuracast Cloud VPS</a>
+                    </div>
+                    <div class="col-s-12 col-l-9 flex-wrapper content noMargin right-inner-hover">
+                      <div class="a5efd row s-hide m-show l-show">
+                        <div class="col-s-6 contentTitle">Azuracast Cloud VPS</div>
+                      </div>
+                      <hr class="s-hide m-show l-show">
+                      <ul class="l3">
+                        <div class="row">
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            <li class="col-s-12 a5elt">
+                              <a href="/ucartz-azuracast-cloud-vps-hosting" class="full block"   >Azuracast Cloud VPS</a>
+                              <span class="a5elt baseline">Starts from Rs 2555/month</span>
+                              <span class="a5elt baseline">Our Azuracast Cloud VPS gives you up to 2x the hosting performance and reliability compared to industry-standard SSD VPS hosting. Our faster cloud servers help you increase your business profits! </span>
+                            </li>
+                          </div>
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            
+                          </div>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-s-12 col-l-3 title noMargin a5etf">
+                      <a href="/video-streaming-hosting.php" >Video Hosting</a>
+                      <span class="ucartz-new-btn ucartz-new-btn-azura-cld-vps">New</span>
+                    </div>
+                    <div class="col-s-12 col-l-9 flex-wrapper content noMargin right-inner-hover">
+                      <div class="a5efd row s-hide m-show l-show">
+                        <div class="col-s-6 contentTitle">VDOPanel Streaming  Hosting</div>
+                      </div>
+                      <hr class="s-hide m-show l-show">
+                      <ul class="l3">
+                        <div class="row">
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            <li class="col-s-12 a5elt">
+                              <a href="/video-streaming-hosting.php" class="full block"   >Video / Live Streaming</a>
+                              <span class="a5elt baseline">Starts from Rs 2555/month</span>
+                              <span class="a5elt baseline"> Easily manage your videos & deliver them across any browser or device </span>
+                            </li>
+                          </div>
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            
+                          </div>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-s-12 col-l-3 title noMargin a5etf">
+                      <a href="/shoutcast-dedicated-server-ucartz" >Shoutcast Dedicated Server</a>
+                    </div>
+                    <div class="col-s-12 col-l-9 flex-wrapper content noMargin right-inner-hover">
+                      <div class="a5efd row s-hide m-show l-show">
+                        <div class="col-s-6 contentTitle">Shoutcast Dedicated Server</div>
+                      </div>
+                      <hr class="s-hide m-show l-show">
+                      <ul class="l3">
+                        <div class="row">
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            <li class="col-s-12 a5elt">
+                              <a href="/shoutcast-dedicated-server-ucartz" class="full block"   >Shoutcast Server</a>
+                              <span class="a5elt baseline">Starts from Rs 5444/month</span>
+                              <span class="a5elt baseline">Get Bare Metal Server preinstalled with Control panels such as CentovaCast, SonicPanel and Azuracast </span>
+                            </li>
+                          </div>
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            
+                          </div>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li style="margin-bottom: 20px;">
+                    <!-- <div class="col-s-12 col-l-3 title noMargin a5etf">
+                      <a href="/azuracast-managed-dedicated-server" >Azuracast Bare Metal</a>
+                    </div> -->
+                    <div class="col-s-12 col-l-9 flex-wrapper content noMargin right-inner-hover">
+                      <div class="a5efd row s-hide m-show l-show">
+                        <div class="col-s-6 contentTitle">Azuracast Dedicated Server</div>
+                      </div>
+                      <hr class="s-hide m-show l-show">
+                      <ul class="l3">
+                        <div class="row">
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            <li class="col-s-12 a5elt">
+                              <a href="/azuracast-managed-dedicated-server" class="full block"   >Azuracast Dedicated Server</a>
+                              <span class="a5elt baseline">Starts from Rs 73/month</span>
+                              <span class="a5elt baseline">Start your Internet Radio Hosting with our Azuracast pre-installed Dedicated Server</span>
+                            </li>
+                          </div>
+                          <div class="col-s-12 col-l-6 noMargin oHide" style="width: 100%;">
+                            
+                          </div>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="rightLightBlueBorder fakeColumn">
+              </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </li>
+          <li class="l1">
+            <a class="menuTitle a6dU7eb" href="#">Cloud & VPS</a>
+            <div id="cloud_menu20Content" class="menu20Content">
+              <div class="row flex-container noMargin noPadding oHide">
+                <div class="westSide col-s-12 col-m-9">
+                  <div class="a5efd row ">
+                    <div class="col-s-6 contentTitle">VPS Hosting</div>
+                    <div class="col-s-6 txtRight">
+                      <a onclick="window.location.href='/buy-vps-cloud-kvm-ucartz'" class="discover"> Virtual Private Server</a>
+                    </div>
+                  </div>
+                  <hr>
+                  <ul class="full row l2">
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/ucartz-kvm-vps" class="col-s-12 a5etf" >Unmanaged KVM VPS </a>
+                      <span class="a5etf baseline">Fast and SSD powered KVM VPS Server</span>
+                      <a href="/ucartz-buy-managed-vps" class="col-s-12 a5etf">Managed cPanel VPS</a>
+                      <span class="a5etf baseline">Set up your VPS with the cPanel/WHM control Panel</span>
+                      <a href="/managed-webmin-vps" class="col-s-12 a5etf">Managed Webmin VPS</a>
+                      <span class="a5etf baseline">Webmin pre-installed VPS & enabled with full Links, KVM and VNC</span>
+                      <a href="/managed-centos-webpanel-vps" class="col-s-12 a5etf">Managed CWP VPS</a>
+                      <span class="a5etf baseline">Pre-installed with Centos WebPanel VPS</span>
+                      <a href="/managed-cloud-hosting" class="col-s-12 a5etf">Managed Cloud Hosting</a>
+                      <span class="a5etf baseline">Run any application and avoid all the hassles with our managed cloud hosting service</span>
+                    </div>
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/ucartz-buy-ssd-vps" class="col-s-12 a5etf" >SSD VPS</a>
+                      <span class="a5etf baseline">Powered by KVM with full root Links and instant provisioning</span>
+                      <a href="/ucartz-cloud-vps" class="col-s-12 a5etf">Cloud VPS</a>
+                      <span class="a5etf baseline">Step into Fast, Scalable and Reliable hosting</span>
+                      <a href="/ucartz-azuracast-managed-vps" class="col-s-12 a5etf">Azuracast Cloud VPS</a>
+                      <span class="a5etf baseline"> VPS preinstalled with AzuraCast control panel. Get started with Shoutcast/Icecast radio streaming. </span>
+                      <a href="/kali-linux-vps-hosting-ucartz" class="col-s-12 a5etf">Kali Linux VPS</a>
+                      <span class="a5etf baseline">Plethora of pre-installed tools to help with information security tasks</span>
+                    </div>
+                    
+                  </ul>
+                </div>
+                <div class="part_quicklink eastSide col-s-12 col-m-3">
+                  <div class="quickAction a5efd">Recommended Services</div>
+                  <hr>
+                  <ul class="full row l2 oHide">
+                    <a class="col-s-12 a5etf" href="/ucartz-hire-an-expert">Hire an Admin</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/ucartz-server-management-services">Server Administration</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/ucartz-software-installation">Software Installation</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/ucartz-cpanel-server-management-solutions">cPanel Server Management</a>
+                    <span class="a5etf baseline">
+                    </span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l1">
+            <span class="ucartz-new-btn ucartz-server-new-btn">New</span>
+            <a class="menuTitle a6dU7eb" href="#">Servers</a>
+            <div id="severs_menu20Content" class="menu20Content">
+              <div class="row flex-container noMargin noPadding oHide">
+                <div class="westSide col-s-12 col-m-9">
+                  <div class="a5efd row ">
+                    <div class="col-s-6 contentTitle">Enterprise Hosting</div>
+                    <div class="col-s-6 txtRight">
+                      <a onclick="window.location.href='/ucartz-dedicated-servers.php'" class="discover"> Bare-Metal Servers</a>
+                    </div>
+                  </div>
+                  <hr>
+                  
+                  <ul class="full row l2">
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/ucartz-buy-unmanaged-dedicated-server" class="col-s-12 a5etf" >Unmanaged Dedicated Server</a>
+                      <span class="ucartz-new-btn ucartz-new-btn-unmanaged-dedicated">Offers</span>
+                      <span class="a5etf baseline">Discover our Top Quality Intel Servers With 24x7 support</span>
+                      <a href="/ucartz-buy-managed-dedicated-server" class="col-s-12 a5etf"  >Managed Dedicated Server</a>
+                      
+                      <span class="a5etf baseline">Enterprise-grade hardware pre-installed with free cPanel/WHM</span>
+                      <a href="/ucartz-low-cost-dedicated-servers" class="col-s-12 a5etf"   >Low Cost Dedicated Server</a>
+                      <span class="a5etf baseline">Affordable Dedicated Server for Startups & SMEs to suit your needs</span>
+                      <a href="/ucartz-buy-gaming-servers" class="col-s-12 a5etf"   >Gaming Dedicated Server</a>
+                      <span class="a5etf baseline">Deliver seamless multiplayer gaming experiences</span>
+                      <a href="/ucartz-siberian-cms-dedicated-server" class="col-s-12 a5etf"   >Dedicated Server for Siberian CMS</a> <span class="ucartz-new-btn ucartz-new-btn-siberian">New</span>
+                      <span class="a5etf baseline">Launch your own app platform independently.</span>
+                      <a href="/vdopanel-video-streaming-dedicated-server.php" class="col-s-12 a5etf"   >VDOPanel Dedicated Server</a> <span class="ucartz-new-btn ucartz-new-btn-vdopanel">New</span>
+                      <span class="a5etf baseline">Low-cost Video Streaming Dedicated server.</span>
+                    </div>
+                    <div class="col-s-12 col-m-6 oHide">
+                        
+                          <a href="/shoutcast-dedicated-server-ucartz" class="col-s-12 a5etf">Shoutcast Dedicated Server</a>
+                      <span class="a5etf baseline">Server preinstalled with streaming control panels such as Centovacast, SonicPanel and Azuracast.</span>
+                      <a href="/ucartz-flussonic-video-streaming-servers" class="col-s-12 a5etf"   >Flussonic Dedicated Server</a>
+                      <span class="a5etf baseline">Discover and start your video streaming with the most advanced and efficient video platforms Flussonic Media Server </span>
+                      <a href="/ucartz-red5-video-streaming-servers" class="col-s-12 a5etf" >RED5 Dedicated Server</a>
+                      <span class="a5etf baseline">Start live streaming of all kinds with our Red5 Media Server. Enjoy the flexibility and broadcast video to millions</span>
+                      <a href="/ucartz-gpu-dedicated-servers" class="col-s-12 a5etf"   >GPU Dedicated Server</a>
+                      <span class="a5etf baseline">NVIDIA GPU-Accelerated Server Platforms</span>
+                    </div>
+                  </ul>
+                </div>
+                <div class="part_quicklink eastSide col-s-12 col-m-3">
+                  <div class="quickAction a5efd">Most Visited Page</div>
+                  <hr>
+                  <ul class="full row l2 oHide">
+                      <a class="col-s-12 a5etf" href="/ucartz-dedicated-servers.php">View all Servers</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/ucartz-multiple-datacenter-locations-worldwide">Server by Location</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/ucartz-server-management-services">Server Administration</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/ucartz-server-monitoring-services">Server Monitoring</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="#" > </a>
+                    <span class="a5etf baseline">
+                    </span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l1">
+            <a class="menuTitle a6dU7eb" href="#">Server Locations</a>
+            <div id="location_menu20Content" class="menu20Content">
+              <div class="row flex-container noMargin noPadding oHide">
+                <div class="westSide col-s-12 col-m-9">
+                  <div class="a5efd row ">
+                    <div class="col-s-6 contentTitle">Server by Region</div>
+                    <div class="col-s-6 txtRight">
+                      <a onclick="window.location.href='/ucartz-multiple-datacenter-locations-worldwide'" class="discover">Choose the closest location for your server</a>
+                    </div>
+                  </div>
+                  <hr>
+                  <ul class="full row l2">
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/ucartz-buy-dedicated-servers-india" class="col-s-12 a5etf">Servers in India</a>
+                      <a href="/ucartz-buy-china-location-dedicated-servers" class="col-s-12 a5etf">Servers in China</a>
+                    
+                      <a href="/ucartz-dedicated-servers-russia" class="col-s-12 a5etf">Servers in Russia</a>
+                      <span class="a5etf baseline">  </span>
+                      <a href="/ucartz-dedicated-server-netherlands" class="col-s-12 a5etf">Servers in Netherlands</a>
+                      <span class="a5etf baseline">  </span>
+                      <a href="/ucartz-dedicated-server-canada" class="col-s-12 a5etf">Servers in Canada</a>
+                      <span class="a5etf baseline"> </span>
+                      <a href="/ucartz-dedicated-server-uk" class="col-s-12 a5etf">Servers in UK</a>
+                      <span class="a5etf baseline"> </span>
+                      <a href="/ucartz-dedicated-servers-turkey" class="col-s-12 a5etf">Servers in Turkey</a>
+                      <span class="a5etf baseline"> </span>
+                      <a href="/ucartz-dedicated-servers-japan" class="col-s-12 a5etf">Servers in Japan</a>
+                      <span class="a5etf baseline"> </span>
+                    </div>
+                    <div class="col-s-12 col-m-6 oHide">
+                        <a href="/ucartz-dedicated-servers-dubai" class="col-s-12 a5etf"> Servers in Dubai</a>
+                      <span class="a5etf baseline"> </span>
+                      <a href="/ucartz-dedicated-servers-germany" class="col-s-12 a5etf">Servers in Germany</a>
+                      <span class="a5etf baseline"> </span>
+                      <a href="/ucartz-dedicated-servers-australia" class="col-s-12 a5etf">Servers in Australia</a>
+                      <span class="a5etf baseline">  </span>
+                      <a href="/ucartz-dedicated-servers-poland" class="col-s-12 a5etf">Servers in Poland</a>
+                      <span class="a5etf baseline"></span>
+                      <a href="/ucartz-dedicated-servers-singapore" class="col-s-12 a5etf">Servers in Singapore</a>
+                      <span class="a5etf baseline">   </span>
+                      <a href="/ucartz-dedicated-servers-south-korea" class="col-s-12 a5etf">Servers in South Korea</a>
+                      <span class="a5etf baseline"> </span>
+                      <a href="/ucartz-buy-unmanaged-dedicated-server" class="col-s-12 a5etf">Servers in USA</a>
+                      <span class="a5etf baseline"> </span>
+                    </div>
+                  </ul>
+                </div>
+                <div class="part_quicklink eastSide col-s-12 col-m-3">
+                  <div class="quickAction a5efd">Most visited</div>
+                  <hr>
+                  <ul class="full row l2 oHide">
+                    <a class="col-s-12 a5etf" href="/ucartz-low-cost-dedicated-servers">Low Cost Dedicated Server</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/ucartz-buy-unmanaged-dedicated-server">Unmanaged dedicated servers</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/ucartz-buy-managed-dedicated-server">Managed dedicated servers</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="#"  > </a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="#"  > </a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="#" > </a>
+                    <span class="a5etf baseline">
+                    </span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l1">
+            <span class="ucartz-new-btn ucartz-solution-new-btn">Offers</span>
+            <a class="menuTitle a6dU7eb" href="#">Solutions</a>
+            <div id="solution_menu20Content" class="menu20Content">
+              <div class="row flex-container noMargin noPadding oHide">
+                <div class="westSide col-s-12 col-m-9">
+                  <div class="a5efd row ">
+                    <div class="col-s-6 contentTitle">Server Management </div>
+                    <div class="col-s-6 txtRight">
+                      <a onclick="window.location.href='#'" class="discover" >Technical support & Administration</a>
+                    </div>
+                  </div>
+                  <hr>
+                  <ul class="full row l2">
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/ucartz-software-installation" class="col-s-12 a5etf"   >Software Installations</a>
+                      <span class="a5etf baseline">Expertize in carrying out intrinsic and complicated installations  </span>
+                      <a href="/ucartz-hire-an-expert" class="col-s-12 a5etf">Hire an Expert</a>
+                      <span class="ucartz-new-btn ucartz-new-btn-hire-expert">New</span>
+                      <span class="a5etf baseline">Get someone around ready to help you with anything</span>
+                      <a href="/ucartz-server-monitoring-services" class="col-s-12 a5etf"   >Server Monitoring</a>
+                      <span class="a5etf baseline">Monitoring that checks your critical systems at regular intervals </span>
+                      <a href="/ucartz-server-management-services" class="col-s-12 a5etf"   >Server Administrator</a>
+                      <span class="a5etf baseline">Get a fully dedicated & 24x7 available  support team</span>
+                      <a href="/ucartz-web-hosting-support" class="col-s-12 a5etf"   >Web Hosting Support</a>
+                      <span class="a5etf baseline">Get complete solutions for your web & servers</span>
+                    </div>
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/ucartz-cpanel-server-management-solutions" class="col-s-12 a5etf">Cpanel Server Management</a>
+                      <span class="a5etf baseline">Unlimited admin work on cPanel dedicated or shared hosting servers</span>
+                      <a href="/ucartz-plesk-server-management" class="col-s-12 a5etf">Plesk Server Management</a>
+                      <span class="a5etf baseline">With our effective server management, we will optimize your server to ensure responsive service at all times.</span>
+                      <a href="/ucartz-amazon-web-service" class="col-s-12 a5etf"  >AWS Cloud Management</a>
+                      <span class="a5etf baseline">Complete Amazon AWS Management Solution</span>
+                    </div>
+                  </ul>
+                </div>
+                <div class="part_quicklink eastSide col-s-12 col-m-3">
+                  <div class="quickAction a5efd">Similiar Services</div>
+                  <hr>
+                  <ul class="full row l2 oHide">
+                    <a class="col-s-12 a5etf" href="/ucartz-buy-managed-dedicated-server" >Managed cPanel Server</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/managed-webmin-vps">Managed Webmin VPS</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/managed-centos-webpanel-vps"  >Managed CentOS VPS</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="#"  > </a>
+                    <span class="a5etf baseline">
+                    </span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l1">
+            <a class="menuTitle a6dU7eb" href="javascript:void(0);">Others</a>
+            <div id="other_menu20Content" class="menu20Content">
+              <div class="row flex-container noMargin noPadding oHide">
+                <div class="westSide col-s-12 col-m-9">
+                  <div class="a5efd row ">
+                    <div class="col-s-6 contentTitle">License</div>
+                    <div class="col-s-6 txtRight">
+                      <a onclick="window.location.href='javascript:void(0);'" class="discover"   >SSL, Domains and much more services</a>
+                    </div>
+  
+                  </div>
+  
+  
+                  <hr>
+                  <ul class="full row l2">
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/ucartz-buy-ssl" class="col-s-12 a5etf">SSL Certificate</a>
+                      <span class="a5etf baseline">Secure your Data and Transaction</span>
+                      
+                      <a href="/ucartz-web-hosting-software-licenses" class="col-s-12 a5etf"  >Licenses</a>
+                      <span class="a5etf baseline">Instant activation & dedicated live support</span>
+                                                <a href="/ucartz-buy-sms" class="col-s-12 a5etf"  >Transactional SMS</a>
+                      <span class="a5etf baseline">Starts from Rs 69</span>
+                                               </div>
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/ucartz-domain-search" class="col-s-12 a5etf"  >Domain</a>
+                      <span class="a5etf baseline">Bring your brand to internet</span>
+                      
+                                                <a href="/ucartz-promotional-sms" class="col-s-12 a5etf"  >Promotional SMS</a>
+                      <span class="a5etf baseline">Starts from Rs 69  </span>
+                                               </div>
+                  </ul>
+                  
+                </div>
+                <div class="part_quicklink eastSide col-s-12 col-m-3">
+                  <div class="quickAction a5efd">Quick Links</div>
+                  <hr>
+                  <ul class="full row l2 oHide">
+                    <a class="col-s-12 a5etf" href="/ucartz-buy-hosting"  >Get a Web Hosting</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <a class="col-s-12 a5etf" href="/ucartz-buy-unmanaged-dedicated-server" >Choose a Dedicated Server</a>
+                    <span class="a5etf baseline">
+                    </span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l1">
+            <a class="menuTitle a6dU7eb" href="#">Contact</a>
+            <div id="contact_menu20Content" class="menu20Content">
+              <div class="row flex-container noMargin noPadding oHide">
+                <div class="westSide col-s-12 col-m-9">
+                  <div class="a5efd row ">
+                    <div class="col-s-6 contentTitle">Get in touch with us</div>
+                  </div>
+                  <hr>
+                  <ul class="full row l2">
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/clients/clientarea.php" class="col-s-12 a5etf"  >Clientarea</a>
+                      <span class="a5etf baseline">
+                      </span>
+                      <a href="/clients/clientarea.php" class="col-s-12 a5etf" >Report Abuse</a>
+                      <span class="a5etf baseline">
+                      </span>
+                      <a href="/ucartz-contact" class="col-s-12 a5etf" >Contact Us</a>
+                      <span class="a5etf baseline">
+                      </span>
+                      <a href="/ucartz-how-to-pay" class="col-s-12 a5etf" >How to pay</a>
+                      <span class="a5etf baseline">
+                      </span>
+  
+                    </div>
+                    <div class="col-s-12 col-m-6 oHide">
+                      <a href="/clients/index.php?rp=/knowledgebase" class="col-s-12 a5etf" >Knowlegdebase</a>
+                      <span class="a5etf baseline">
+                      </span>
+                      <a href="/clients/index.php?rp=/announcements" class="col-s-12 a5etf">What's New</a>
+                      <span class="a5etf baseline">
+                      </span>
+                      <a class="col-s-12 a5etf" href="/ucartz-affiliates"  >Become an Affialiate</a>
+                      <span class="a5etf baseline">
+                      </span>
+                    </div>
+                  </ul>
+                </div>
+                <div class="part_quicklink eastSide col-s-12 col-m-3">
+                  <div class="quickAction a5efd">Company</div>
+                  <hr>
+                  <ul class="full row l2 oHide">
+                    <a class="col-s-12 a5etf" href="/ucartz-about-us" >Who are we?</a>
+                    <span class="a5etf baseline">
+                    </span>
+                    <!-- <a class="col-s-12 a5etf" href="/ucartz-affiliates"  >Become an Affialiate</a>
+                    <span class="a5etf baseline">
+                    </span> -->
+                    <a class="col-s-12 a5etf" href="/ucartz-how-to-pay">How to pay?</a>
+                    <span class="a5etf baseline">
+                    </span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="full mobileSupportMenu">
+      <div class="menu20 row">
+        <ul>
+          <li class="noL2">
+            <a href="/ucartz-about-us" class="menuTitle a6dU7eb white noL2">About Us</a>
+          </li>
+          <li class="noL2">
+            <a href="/ucartz-how-to-pay-india" class="menuTitle a6dU7eb white noL2">Payment Option</a>
+          </li>
+          <li class="noL2">
+            <span class="menuTitle a6dU7eb white">Client Zone</span>
+            <div id="client_menu20Content" class="menu20Content" style="min-height: 200px;">
+              <form method="post" class="form" action="https://www.ucartz.com/clients/dologin.php" style="background-color: #fff;    border-radius: 10px;padding: 10px;">
+                      <div class="row">
+                        <div class="col-md-12 ">
+                          <label>Enter clientarea login details</label>
+                          <input class="form-control mb-2" type="email" placeholder="Email address" name="username" required>
+                          <input class="form-control" type="password" placeholder="Password" name="password" required>
+                          <button class="btn btn-default" type="submit">Sign in</button>
+                          <a href="/clients/pwreset.php" style="text-transform: none;border: none;">Forgot password?</a>
+                        </div>
+                      </div>
+                    </form>
+            </div>
+          </li>
+          <li class="noL2">
+            <a href="http://mainvps.ucartz.com:4083/" class="menuTitle a6dU7eb white noL2">VPS Panel</a>
+          </li>
+          <li class="noL2">
+            <a href="https://www.ucartz.com/clients/submitticket.php" class="menuTitle a6dU7eb white noL2">Support</a>
+          </li>
+          <li class="noL2">
+            <a href="/ucartz-career" class="menuTitle a6dU7eb white noL2">We are hiring</a>
+          </li>
+          <li class="">
+            <span class="menuTitle a6dU7eb white">Currency</span>
+            <div id="currency_menu20Content" class="menu20Content" style="min-height: 100px;">
+              <ul style="background-color: #fff;    border-radius: 10px;padding: 10px;"> 
+                <li>
+                  <a style="border:none" class="menu_link"  onclick="setCurrency('INR')">&#8377; INDIA-INR</a>
+                </li>
+                <li>
+                  <a style="border:none" class="menu_link"  onclick="setCurrency('USD')">&#36; US-USD</a>
+                </li>
+                
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- HEADER-END -->
+</body>
+</html>
